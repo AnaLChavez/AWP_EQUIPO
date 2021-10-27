@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/reset.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/9d6315ac3e.js"></script>
+	<title>Página principal</title>	
+</head>
+<body>
+	<header id="header">
+		<nav class="navbar navbar-default navbar-expand-lg">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/logo.PNG" width="150" alt="">
+				</a><!-- .navbar-brand -->
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    				<span class="navbar-toggler-icon"></span>
+  				</button>
+
+				<div class="collapse navbar-collapse" id="navbarNav">
+				    <ul class="nav navbar-nav ml-auto">
+				      <li class="nav-item active">
+				        <a class="nav-link link-menu" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link link-menu" href="#">Acerca</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link link-menu" href="#">Características</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link link-menu" href="producto.html">Producto</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link link-menu" href="#">Testimonios</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link link-menu" href="#">FAQ</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link link-menu" href="contacto.html">Contacto</a>
+				      </li>
+				    </ul>
+				</div><!-- .collapse -->			
+			</div> <!-- .container -->			
+		</nav> <!-- .navbar -->		
+	</header> <!-- header -->
+
+	<section id="contacto">
+		<div class="container">
+			<div class="row justify-content-md-center espacio-row">
+				<div class="col-md-6">
+					<h1>Ponte en contacto</h1>
+					<p>Nos interesa conocer tu opinión, sugerencias, quejas y responder a tus preguntas.</p>
+				</div>
+				<div id="resultado"></div>
+			</div>
+
+			<div class="row justify-content-md-center espacio-row">
+				<div class="col-md-5">
+					<form method="POST" action="data/datos.php">
+						<div class="form-group">
+							<input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre">
+						</div>	
+					  	<div class="form-group">
+					    	<input type="email" class="form-control" id="correo" name="correo" placeholder="Correo electrónico">
+					  	</div>
+					  	<div class="form-group">
+					   		<input type="text" class="form-control" id="asunto" name="asunto" placeholder="Asunto">
+					  	</div>
+					  	<div class="form-group">
+					    	<textarea class="form-control" id="mensaje" name="mensaje" rows="5" placeholder="Escribe aqui tu mensaje"></textarea>
+					  	</div>
+					  	<button id="comentarios" class="btn btn-primary">Enviar</button>
+					</form>
+				</div>
+				<div class="col-md-5">
+					<div class="row col-justify">
+						<div class="col-md-1">
+							<i class="fas fa-phone-alt"></i>
+						</div>
+						<div class="col-md-11">
+							<h3>Teléfono</h3>
+						</div>
+					</div>
+					<div class="row col-justify">
+						<div class="col-md-1">
+							<i class="fas fa-envelope"></i>
+						</div>
+						<div class="col-md-11">
+							<h3>Correo</h3>
+						</div>
+					</div>
+					<div class="row col-justify">
+						<div class="col-md-1">
+							<i class="fas fa-map-marked-alt"></i>
+						</div>
+						<div class="col-md-11">
+							<h3>Dirección</h3>
+						</div>
+					</div>
+
+					<div class="row col-justify">
+						<div class="col-md-12">
+							<h3>Redes Sociales</h3>
+						</div>
+					</div>
+					<div class="row col-justify">
+						<div class="col-md-12">
+							<ul>
+								<li>
+									<a href="https://www.facebook.com">
+										<img src="images/social/facebook.PNG">
+									</a>
+								</li>
+		                		<li>
+		                			<a href="https://www.twitter.com">
+		                				<img src="images/social/twitter.PNG">
+		                			</a>
+		                		</li>
+		                		<li>
+		                			<a href="https://www.instagram.com">
+		                				<img src="images/social/instagram.PNG">
+		                			</a>
+		                		</li>
+							</ul>
+						</div>
+					</div>					
+				</div>
+			</div>
+		</div>
+	</section> <!-- Fin de contacto -->
+
+
+	<footer id="footer">
+		<div class="container">
+			<div class="row justify-content-md-center">
+				<div class="col-md-8">
+					<p>Copyright © 2019 SMARTWATCH | Todos los derechos reservados </p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	
+    <script>
+    	$(document).ready(function(){
+    		$('#comentarios').click(function(){
+    			/*event.preventDefault();*/
+				var parametros = {
+    				nombre: $("#nombre").val(),
+    				correo: $("#correo").val(),
+    				asunto: $("#asunto").val(),
+    				mensaje: $("#mensaje").val()
+    			}
+
+    			$.ajax({
+    				ulr: "data/datos.php",
+    				type: "POST",
+    				data: parametros,
+    				success: function( resp ){
+    					if( resp == 1 ){
+    						$('#respuesta').html(resp)
+    					}   					
+    				}
+    			});
+    		});
+    	});
+    </script>
+
+</body>
+</html>

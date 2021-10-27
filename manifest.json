@@ -1,0 +1,12 @@
+{
+    "name" : "Prueba de PWA",
+    "short_name": "PWA",
+    "start_url": "/",
+    "description": "Aplicación de prueba PWA",
+    "lang": "en-US",
+    "display": "standalone",
+    "orientation": "portrait",
+    "theme_color": "#ccc",
+    "background_color": "#f2f2f2"
+    
+}

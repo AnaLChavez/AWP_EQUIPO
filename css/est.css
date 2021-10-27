@@ -1,0 +1,240 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Caveat+Brush");
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+@import url("https://fonts.googleapis.com/css?family=Neucha");
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+@import url("https://fonts.googleapis.com/css?family=Anton");
+@import url("https://fonts.googleapis.com/css?family=Kanit");
+@import url("https://fonts.googleapis.com/css?family=Barlow");
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+header, section, footer, aside, nav, article, figure, figcaption, hgroup{ 
+	display: block; 
+}
+
+#color{
+	color: #FF0000;
+}
+
+#color1{
+	color: #FFF8DC;
+}
+
+#color2{
+	color: #f37608;
+}
+
+
+h1 { 
+	font-size: 40px;
+	font-family:'Caveat Brush',sans-serif;
+} 
+
+h2 { 
+	font-size:  26px; 
+	font-family: 'Oswald',sans-serif;
+}
+h3 { 
+	font-size:  20px; 
+	font-family: "Neucha",sans-serif;
+}
+h4 { 
+	font-size:  15px; 
+	font-family: "Indie Flower",sans-serif;
+}
+h5 { 
+	font-size:  16px;
+	font-family: "Anton",sans-serif; 
+}
+
+h6 { 
+	font-size:  16px;
+	font-family: "Kanit",sans-serif;
+}
+
+h6 { 
+	font-size:  16px;
+	font-family: "Barlow",sans-serif;
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+/****************** Divicion superior ******************/
+
+.header-top .container .row{
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+	width: 85%;
+	height: 4.6875em;
+	float: right;
+	text-align: center;
+	background: #ffff00;
+}
+
+.search-form {
+	font: inherit;
+	vertical-align: baseline;
+	width: 80%;
+	float: left;
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+	align-items: center;
+	box-sizing: border-box;
+	display: block;
+}
+
+
+
+#colorsup{
+	background-color: #ffff00;
+}
+
+#colorm{
+	background-color: #FF8C00;
+}
+
+#colorcuerpo{
+	background-color: #ffffff;
+
+}
+
+#cuerpo{
+	overflow: auto;
+
+}
+
+#sup{
+	width: 85%;
+}
+
+#men{
+	width: 15%;
+}
+
+.border-capa{
+	border: solid 1px #CACACA;
+}
+
+.espacio-row{
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+
+/****************** Divicion de menu (parte de la izquierda) ******************/
+
+#nav {
+	float: left;
+	width: 15%;
+	margin: 0 auto;
+	text-align: center;
+	list-style-type: none;
+
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10%;
+    width: 85%;
+    vertical-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 15pt;
+}
+#menu ul li {
+	vertical-align: center;
+    padding: 5px;
+}
+
+/****************** Divicion del cuerpo (Contenido) ******************/
+ 
+#main {
+	float: left;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	list-style-type: none;
+	background-color: #ffffff;
+}
+
+#main1 {
+	float: left;
+	width: 85%;
+	margin: 0 auto;
+	text-align: center;
+	list-style-type: none;
+	background-color: #ffff00;
+}
+
+
+#col { 
+	text-align: center;
+	float: left;
+}
+
+
+/****************** Divicion de la parte inferior (pie de pagina) ******************/
+
+#footer{
+	clear: both;
+	background: #383838;
+	color: #FFF;
+}
+
+.copyright .container .row{
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 3.125em;
+}
+
+/****************** Estilos de registros (textarea) ******************/
+
+input, textarea {
+	display: block;
+	width: 200px;
+	margin: 0;
+	border: thin solid #ECECEC;
+	border-radius: 0.3125em;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#colormenu{
+	background-color: #ffff00;
+}
+
+#imagen{
+	width: 260px;
+	height: 23px;
+}
+
+input{
+	height: 3em;
+}
+
+
+#contacto-form{
+	margin-top: 1em;
+	padding: 2em;
+}
