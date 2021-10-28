@@ -50,10 +50,7 @@ let responseContent =
 const cachePWA ='cache-site-v1';
 const assets = [
     "/",
-    "/index.html",
-    "/css/style.css",
     "/js/app.js",
-    "/pages/prueba.html",
     "/manifest.json",
     "/css/est.css",
     "/css/reset.css",
