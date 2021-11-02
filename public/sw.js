@@ -68,6 +68,9 @@ const assets = [
     "/Practica prof/prueba.html",
     "/manifest.json",
     "/tienda.html",
+    "/adopcion.html",
+    "/adoptar.html",
+    "/index.html",
     "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
 
 ];

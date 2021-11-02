@@ -4,7 +4,7 @@
   <meta charset="utf8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/estilo_tienda.css">
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/est.css">
   <title>PETS RESCUE</title>
 </head>
@@ -13,27 +13,26 @@
 <body>
   <div class="container-fluid" >
       <div class="row" id="colorm">
-        <div class="col-2" class="border">
+        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical" width:auto; height:auto; class="collapse.navbar-collapse">
           
           <p align="center">
           <img src="iconos/LOGO.png" class="img-fluid" width="100"><br><br><br>
           </p>
+          <div  class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical" width:auto; height:auto; class="collapse.navbar-collapse" >
+            <a href="index.html" role="button" class="nav-link" style="background-color: #ffff00;" id="v-pills-home-tab" role="tab" aria-controls="v-pills-home" aria-selected="true"><h6><li><center>Inicio<img src="iconos/house.png" height="30" width="36" align="center"></center></li></h6></a><br>
+          
+            <a href="adoptar.html" role="button" class="nav-link" style="background-color: #ffff00;" id="v-pills-profile-tab" role="tab" aria-controls="v-pills-profile" aria-selected="false"><li><center>Adoptar <img src="iconos/love.png" height="30" width="36" align="center"></center></li></a><br>
+          
 
-          <div  class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical" "width:auto; height:auto;" class="collapse.navbar-collapse" >
-                <a href="inicio.html" role="button" class="nav-link" style="background-color: #ffff00;" id="v-pills-home-tab" role="tab" aria-controls="v-pills-home" aria-selected="true"><h6><li><center>Inicio<img src="iconos/house.png" height="30" width="36" align="center"></center></li></h6></a><br>
-              
-                <a href="adoptar.html" role="button" class="nav-link" style="background-color: #ffff00;" id="v-pills-profile-tab" role="tab" aria-controls="v-pills-profile" aria-selected="false"><li><center>Adoptar <img src="iconos/love.png" height="30" width="36" align="center"></center></li></a><br>
-              
+            <a class="nav-link" style="background-color: #ffff00;" id="v-pills-profile-tab" href="adopcion.html" role="tab" aria-controls="v-pills-profile" aria-selected="false"><li><center>Dar en Adopción <img src="iconos/care.png" height="30" width="36" align="center"></center></li></a><br>
+        
 
-                <a class="nav-link" style="background-color: #ffff00;" id="v-pills-profile-tab" href="adopcion.html" role="tab" aria-controls="v-pills-profile" aria-selected="false"><li><center>Dar en Adopción <img src="iconos/care.png" height="30" width="36" align="center"></center></li></a><br>
-            
-
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: #ffff00" style="outline: none;"><a href="tienda.html" style="text-decoration: none;"><li>Pets Shop<img src="iconos/pet-shop.png" height="30" width="36" align="center"></li></a></button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                  <button class="dropdown-item" type="button"><a href="tienda.html">Higiente</a></button>
-                  <button class="dropdown-item" type="button">Accesorios</button>
-                  <button class="dropdown-item" type="button">Alimentos</button>
-                </div><br>
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: #ffff00" style="outline: none;"><a href="tienda.html" style="text-decoration: none;"><li>Pets Shop<img src="iconos/pet-shop.png" height="30" width="36" align="center"></li></a></button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <button class="dropdown-item" type="button"><a href="tienda.html">Higiente</a></button>
+              <button class="dropdown-item" type="button">Accesorios</button>
+              <button class="dropdown-item" type="button">Alimentos</button>
+            </div><br>
               
 
                 <a class="nav-link" style="background-color: #ffff00;" id="v-pills-profile-tab" href="secion.html" role="tab" aria-controls="v-pills-profile" aria-selected="false"><li><center>Iniciar Sesión <img src="iconos/usuarios.png" height="30" width="36" align="center"></center></li></a><br>
