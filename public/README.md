@@ -1,3 +1,0 @@
-# AWP_EQUIPO
-
-#Proyecto PETS RESCUE

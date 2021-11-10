@@ -1,12 +1,28 @@
 {
-    "name" : "Prueba de PWA",
-    "short_name": "PWA",
-    "start_url": "/",
-    "description": "Aplicación de prueba PWA",
-    "lang": "en-US",
-    "display": "standalone",
-    "orientation": "portrait",
-    "theme_color": "#ccc",
-    "background_color": "#f2f2f2"
-    
+    "name" : "PETS RESCUE",
+    "short_name" : "PETS",
+    "start_url" : "/",
+    "description" : "Aplicación de prueba de PWA",
+    "lang" : "en_US",
+    "display" : "standalone",
+    "orientation" : "portrait",
+    "theme_color": "#FFFDE7 ",
+    "background_color": "#dbabc5",
+    "icons": [
+        {
+            "src": "images/icons/icons_perro16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "images/icons/icons_perro32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "images/icons/icons_perros-64.png",
+            "sizes": "64x64",
+            "type": "image/png"
+        }
+    ] 
 }
